@@ -1,6 +1,10 @@
-function threeSum(arr, target) {
-// write your code here
-  
-}
+function convert() {
+	// Get the input value
+	let decimal = document.getElementById("decimal-input").value;
 
-module.exports = threeSum;
+	// Convert the decimal to binary
+	let binary = decimal.toString(2);
+
+	// Display the binary output
+	document.getElementById("binary-output").textContent = "Binary: " + binary;
+}
